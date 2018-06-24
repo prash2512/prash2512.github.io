@@ -1,0 +1,24 @@
+{
+  "name": "prash2512.github.io",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prash2512/prash2512.github.io.git"
+  },
+  "author": "Prashanth Venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prash2512/prash2512.github.io/issues"
+  },
+  "homepage": "https://github.com/prash2512/prash2512.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
