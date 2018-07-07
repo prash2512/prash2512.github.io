@@ -1,0 +1,43 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+.container-fluid {
+    background-color: #DCD7D6;
+}
+.container {
+    background-color: #DCD7D6;
+    width: 100%;
+    height: 100%;
+
+}
+/* Set gray background color and 100% height */
+.sidenav {
+    background-color: #f3f3f3;
+    height: 100%;
+}
+
+.anothernav {
+    background-color: #f3f3f3;
+}
+.profile_pic {
+    height: 18%;
+    width: 80%;
+    horizontal-alignment: center;
+}
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+}
+
+#mypage {
+    background-color: "#f3f3f3";
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+    height: auto;
+    }
+    .row.content {height: 100%;}
+}
